@@ -1,12 +1,10 @@
 ---
-description: >-
-  Una volta finalitzades les activitats, podem detindre el laboratori, per tal
-  de no consumir el crèdit disponible.
+description: Finalització del laboratori
 ---
 
 # ⚒️ Finalització del laboratori
 
-Per a parar el laboratori, polsem sobre el botó 'End Lab' a la finestra de l'aplicació 'vocareum'.
+Una volta finalitzades les activitats, podem detindre el laboratori, per tal de no consumir el crèdit disponible. Per a parar el laboratori, polsem sobre el botó 'End Lab' a la finestra de l'aplicació 'vocareum'.
 
 <figure><img src="../.gitbook/assets/image (183).png" alt=""><figcaption></figcaption></figure>
 
