@@ -1,0 +1,2 @@
+# ⚒️ Monitorizar instàncies manualment.
+
