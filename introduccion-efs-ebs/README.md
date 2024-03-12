@@ -1,4 +1,4 @@
-# 🖍️ Introducció
+# 🖍️ Introducció a EFS i EBS
 
 **Amazon Web Services (AWS)** ofereix una gamma diversa de serveis d'emmagatzematge per satisfer les necessitats variades de les aplicacions i les càrregues de treball dels clients. Dos dels serveis més utilitzats són **Amazon Elastic File System (EFS)** i **Amazon Elastic Block Store (EBS)**, que proporcionen solucions per a l'emmagatzematge de dades en el núvol.
 
@@ -8,12 +8,3 @@
 
 En resum, **Amazon EFS i EBS** són dos serveis clau d'emmagatzematge en **AWS** que ofereixen solucions específiques per a diferents necessitats d'emmagatzematge de dades. Mentre **EFS** està dissenyat per a sistemes de fitxers compartits escalables i flexibles, **EBS** és ideal per a emmagatzematge de blocs persistents i de baix nivell per a instàncies **EC2** individuals. Ambdós serveis juguen un paper essencial en l'ecosistema d'emmagatzematge d'**AWS**, proporcionant opcions versàtils i fiables per als usuaris per gestionar les seves dades al núvol de manera eficient i segura.
 
-#### &#x20;Introducció a Amazon EFS i EBS en AWS
-
-Amazon Web Services (AWS) ofereix una gamma diversa de serveis d'emmagatzematge per satisfer les necessitats variades de les aplicacions i les càrregues de treball dels clients. Dos dels serveis més utilitzats són Amazon Elastic File System (EFS) i Amazon Elastic Block Store (EBS), que proporcionen solucions per a l'emmagatzematge de dades en el núvol.
-
-**Amazon EFS** és un servei de sistema de fitxers totalment gestionat i escalable que permet als usuaris crear i configurar sistemes de fitxers compartits que es poden accedir des de diverses instàncies d'Amazon EC2 alhora. És ideal per a aplicacions que requereixen accés simultani a les mateixes dades per part de múltiples instàncies EC2. EFS és totalment escalable, s'ajusta automàticament a la mida dels arxius i al nombre d'usuaris, oferint un sistema de fitxers flexible i fiable per a aplicacions distribuïdes.
-
-**Amazon EBS**, per altra banda, ofereix volums d'emmagatzematge de blocs persistents per a les instàncies EC2. És com un disc dur virtual que es pot attachar a una instància EC2 i utilitzar com a emmagatzematge de dades. EBS proporciona diferents tipus de volums amb característiques específiques com ara volums SSD per a un alt rendiment d'entrada/sortida (IOPS provisionades) o volums HDD per a un emmagatzematge de dades més econòmic. A més, els volums EBS poden ser copiats com a instantànies (snapshots) per a la realització de còpies de seguretat o per a la creació de nous volums.
-
-En resum, Amazon EFS i EBS són dos serveis clau d'emmagatzematge en AWS que ofereixen solucions específiques per a diferents necessitats d'emmagatzematge de dades. Mentre EFS està dissenyat per a sistemes de fitxers compartits escalables i flexibles, EBS és ideal per a emmagatzematge de blocs persistents i de baix nivell per a instàncies EC2 individuals. Ambdós serveis juguen un paper essencial en l'ecosistema d'emmagatzematge d'AWS, proporcionant opcions versàtils i fiables per als usuaris per gestionar les seves dades al núvol de manera eficient i segura.
