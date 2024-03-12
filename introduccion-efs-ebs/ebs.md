@@ -20,3 +20,21 @@ En accedir al panell de _**Volúmenes**_ podem veure els discs de les nostres in
 
 <figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
+
+
+<figure><img src=".gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+
+**Amazon Elastic Block Store (EBS)** es un servicio de almacenamiento de bloques proporcionado por **Amazon Web Services (AWS)**. Ofrece volúmenes de almacenamiento persistentes a nivel de bloque para su uso con instancias de **Amazon EC2 (Elastic Compute Cloud)**. Aquí tienes un resumen de EBS:
+
+#### Características:
+
+1. **Almacenamiento de Bloques**: EBS proporciona volúmenes de almacenamiento a nivel de bloque que pueden adjuntarse a instancias de EC2.
+2. **Persistencia**: Los datos en los volúmenes de EBS persisten independientemente de la vida útil en ejecución de una instancia EC2. Esto significa que puedes detener y reiniciar instancias sin perder datos en los volúmenes de EBS.
+3. **Instantáneas (Snapshots)**: Los volúmenes de EBS pueden respaldarse tomando instantáneas, que son copias de los volúmenes en un punto específico en el tiempo. Estas instantáneas se pueden utilizar para crear nuevos volúmenes o restaurar datos.
+4. **Opciones de Rendimiento**:
+   * **Volúmenes Respaldados por SSD**:
+     * _Propósito General (gp2)_: Adecuado para una amplia gama de cargas de trabajo, ofreciendo un equilibrio entre precio y rendimiento.
+     * _IOPS Provisionadas (io1)_: Diseñado para cargas de trabajo intensivas en E/S, te permite especificar IOPS (operaciones de entrada/salida por segundo) para un rendimiento predecible.
+
+
+
