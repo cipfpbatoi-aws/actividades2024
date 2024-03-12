@@ -12,7 +12,8 @@
   * [⚒️ Crear una alarma amb CloudWatch](pindoles-formatives/alarmes-en-cloudwatch/crear-una-alarma-amb-cloudwatch.md)
   * [⚒️ Editar una alarma amb CloudWatch](pindoles-formatives/alarmes-en-cloudwatch/editar-una-alarma-amb-cloudwatch.md)
   * [⚒️ Alarmes que detenen, acaben, reinicien o recuperen una instància](pindoles-formatives/alarmes-en-cloudwatch/alarmes-que-detenen-acaben-reinicien-o-recuperen-una-instancia.md)
-* [⚒️ Monitorizar instàncies manualment.](pindoles-formatives/monitorizar-instancies-manualment..md)
+* [⚒️ Monitorizar instàncies manualment.](pindoles-formatives/monitorizar-instancies-manualment./README.md)
+  * [⚒️ Comprovacions d'estat de sistemes.](pindoles-formatives/monitorizar-instancies-manualment./comprovacions-destat-de-sistemes..md)
 
 ## Pràctica
 

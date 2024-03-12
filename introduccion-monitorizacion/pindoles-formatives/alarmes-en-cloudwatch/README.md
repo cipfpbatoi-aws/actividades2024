@@ -6,7 +6,7 @@ description: Qué son i per a que serveixen.
 
 Les alarmes de CloudWatch amb AWS són mecanismes que es poden configurar per a supervisar els recursos i les mètriques en el núvol d'Amazon Web Services (AWS). Aquestes alarmes permeten als usuaris definir condicions específiques basades en mètriques de CloudWatch i rebre notificacions automàtiques quan es produeixen certes situacions o quan es superen certs llindars.
 
-<figure><img src="../../.gitbook/assets/image.png" alt="" width="128"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt="" width="128"><figcaption></figcaption></figure>
 
 Les alarmes de CloudWatch poden ser útils per a diverses situacions, com ara:
 
