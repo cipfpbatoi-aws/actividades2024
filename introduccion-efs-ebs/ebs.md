@@ -1,5 +1,7 @@
 # 📀 EBS
 
+<figure><img src=".gitbook/assets/image (8).png" alt="" width="150"><figcaption></figcaption></figure>
+
 **Amazon Elastic Block Store (EBS)** és un servei d'emmagatzematge de blocs proporcionat per **Amazon Web Services (AWS)**. Ofereix volums d'emmagatzematge persistents a nivell de bloc per a l'ús amb instàncies d'**Amazon EC2 (Elastic Compute Cloud)**.
 
 #### Característiques:
