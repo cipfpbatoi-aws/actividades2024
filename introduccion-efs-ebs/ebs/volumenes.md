@@ -1,10 +1,8 @@
-# 🛠️ Volúmenes
+# 🛠️ Volums
 
-La gestió dels volums la farem des d'aquest apartat:
+La gestió dels volums la farem des de l'apartat "_**Volúmnes**_". Es mostren els dos volums que tenim de les dues instàncies **EC2**.&#x20;
 
 <figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
-
-Com podeu comprovar tenim els dos volums que fan referència a les dues instàncies **EC2** que tenim en aquest moment.&#x20;
 
 A continuació crearem un volum, la següent imatge mostra com les principals característiques que podem ajustar (el tipus de volum, la mida, les zones, el xifratge, entre altres). &#x20;
 
@@ -30,7 +28,7 @@ Si seleccionem un **volum** i fem clic en l'opció "_**Acciones**_" veurem les d
 
 <figure><img src="../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
 
-Ara associarem un volum a una instància. Seleccionem a quina instància i el nom del dispositiu que tindrà en la nostra instància, encara que després canviarà el nom com diu l'avís. &#x20;
+Ara associarem un volum a una instància. Seleccionem a quina instància i el nom del dispositiu que tindrà, encara que després canviarà el nom com diu l'avís. &#x20;
 
 <figure><img src="../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
 
@@ -38,11 +36,11 @@ Ara podem veure que tots els volums estan en ús:
 
 <figure><img src="../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
 
-I si volem associar un volum que està en ús a una instància no ens deixa, primer hem de "_desassociar_" abans aquest:
+Si volem associar un volum que està en ús a una instància no ens deixa, primer hem de "_desassociar_" abans aquest:
 
 <figure><img src="../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
 
-A continuació anem a veure el volum creat en la instància EC2, en la següent captura podeu veure el disc del sistema amb particions i el nostre volum xvdf.
+A continuació anem a veure el volum creat. Accedim a la instància **EC2 i** en la següent captura podem veure el disc del sistema amb particions i el nostre volum _**xvdf**_.
 
 <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
@@ -54,12 +52,10 @@ Crearem dues particions fent servir **cfdisk**.&#x20;
 
 <figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
-Li donarem format a les particions creades:
+Li donarem format a les particions amb **mkfs**:
 
 <figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 I comprovem que podem muntar i escriure la partició del volum: &#x20;
-
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
