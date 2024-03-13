@@ -4,3 +4,4 @@
 * [💿 EFS](efs.md)
 * [📀 EBS](ebs/README.md)
   * [🛠️ Volums](ebs/volumenes.md)
+  * [🛠️ Instantànies](ebs/instantanies.md)
