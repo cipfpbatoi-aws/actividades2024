@@ -16,9 +16,12 @@ Crearem un nou volum d'aquesta instantània:
 
 <figure><img src="../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
 
-Volum creat a partir d'una instantania:
+Volum creat a partir d'una instantània:
 
 <figure><img src="../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
 
-A continuació associarem el nou volum a una altra instància **EC2** i verificarem el funcionament:&#x20;
+A continuació associarem el nou volum a una altra instància **EC2**, en aquest cas farem servir una instància d'Amazon Linux per provar altre tipus.
 
+<figure><img src="../.gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
+
+Com podem comprovar, aquest volum és una d'una instància del volum que tenim en l'altra instància, amb el fitxer de prova que hem creat.&#x20;
