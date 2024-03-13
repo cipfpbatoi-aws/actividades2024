@@ -4,7 +4,7 @@ description: Elastic File System
 
 # 💿 EFS
 
-<figure><img src=".gitbook/assets/image (7).png" alt="" width="150"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (7) (1).png" alt="" width="150"><figcaption></figcaption></figure>
 
 **EFS (Elastic File System)** a **AWS (Amazon Web Services)** és un servei d'emmagatzematge al núvol que proporciona un sistema de fitxers escalable i totalment gestionat per a instàncies d'**Amazon EC2** i serveis al núvol. **EFS** està dissenyat per ser altament disponible i durador, el que el fa ideal per a una àmplia gamma d'aplicacions i casos d'ús, com ara emmagatzematge de dades, contingut web, repositoris de codi i sistemes de fitxers compartits.
 

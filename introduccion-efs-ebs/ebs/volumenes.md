@@ -42,5 +42,24 @@ I si volem associar un volum que està en ús a una instància no ens deixa, pri
 
 <figure><img src="../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
 
-A continuació anem a veure el volum creat en la instància EC2:
+A continuació anem a veure el volum creat en la instància EC2, en la següent captura podeu veure el disc del sistema amb particions i el nostre volum xvdf.
 
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+Crearem dues particions fent servir **cfdisk**.&#x20;
+
+
+
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+
+Li donarem format a les particions creades:
+
+<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+
+I comprovem que podem muntar i escriure la partició del volum: &#x20;
+
+<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
