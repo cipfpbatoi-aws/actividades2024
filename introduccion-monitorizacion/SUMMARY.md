@@ -14,7 +14,7 @@
   * [⚒️ Alarmes que detenen, acaben, reinicien o recuperen una instància](pindoles-formatives/alarmes-en-cloudwatch/alarmes-que-detenen-acaben-reinicien-o-recuperen-una-instancia.md)
 * [⚒️ Monitorizar instàncies manualment.](pindoles-formatives/monitorizar-instancies-manualment./README.md)
   * [⚒️ Comprovacions d'estat de sistemes.](pindoles-formatives/monitorizar-instancies-manualment./comprovacions-destat-de-sistemes..md)
-  * [⚒️ Comprovacions d'estat de la instància.](pindoles-formatives/monitorizar-instancies-manualment./comprovacions-destat-de-la-instancia..md)
+  * [⚒️ Comprovacions d'estat de l'instància.](pindoles-formatives/monitorizar-instancies-manualment./comprovacions-destat-de-linstancia..md)
 
 ## Pràctica
 

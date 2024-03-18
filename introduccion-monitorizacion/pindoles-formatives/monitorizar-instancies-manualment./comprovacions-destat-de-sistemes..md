@@ -11,6 +11,12 @@ Les comprovacions d'estat del sistema monitoritzen els sistemes d'AWS on s'execu
 * Problemes de programari al host físic.
 * Problemes de maquinari al host físic que afecten la accessibilitat a la xarxa.
 
+Aquesta comprovació verifica que la instància és accessible. Amazon EC2 verifica si els paquets de xarxa poden arribar a la instància.
+
+Si aquesta comprovació no es realitza correctament, pot haver-hi un problema amb la infraestructura que allotja la instància (per exemple, als sistemes de programari, xarxes o alimentació d'AWS). Podeu reiniciar o reemplaçar la instància, esperar que els sistemes d'Amazon EC2 resolguin el problema o cercar suport tècnic.
+
+Aquesta comprovació no verifica si el sistema operatiu i les aplicacions estan acceptant trànsit.
+
 Per veure les comprovacions d'estat:
 
 1. Obriu la consola d'Amazon EC2.&#x20;
@@ -61,3 +67,4 @@ eee_W_2589232@runweb117359:~$  aws ec2 describe-instance-status
     ]
 }
 ```
+

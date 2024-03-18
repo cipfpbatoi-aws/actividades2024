@@ -2,9 +2,9 @@
 description: Monitorització d'instàncies de manera manual.
 ---
 
-# ⚒️ Comprovacions d'estat de la instància.
+# ⚒️ Comprovacions d'estat de l'instància.
 
-Monitorització de la configuració de programari i de xarxa de la instància individual.
+Monitorització de la configuració de programari i de xarxa de la instància individual. Aquesta comprovació verifica si el sistema operatiu de la instància accepta trànsit.
 
 Amazon EC2 verifica l'estat de la instància mitjançant l'enviament d'una sol·licitud del protocol de resolució d'adreces (ARP) a la interfície de xarxa (NIC).
 
@@ -14,7 +14,7 @@ Amazon EC2 verifica l'estat de la instància mitjançant l'enviament d'una sol·
 * Sistema de fitxers danyat.
 * Kernel incompatible.
 
-<figure><img src="../../.gitbook/assets/image (191).png" alt=""><figcaption><p>Comprovació d'estat de l'instancia.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (191).png" alt=""><figcaption><p>Comprovació d'estat de l'instància.</p></figcaption></figure>
 
 Per informar de l'estat d'una instància:&#x20;
 
