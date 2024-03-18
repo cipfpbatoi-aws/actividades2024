@@ -11,13 +11,53 @@ Les comprovacions d'estat del sistema monitoritzen els sistemes d'AWS on s'execu
 * Problemes de programari al host físic.
 * Problemes de maquinari al host físic que afecten la accessibilitat a la xarxa.
 
-Para ver las comprobaciones de estado
+Per veure les comprovacions d'estat:
 
-1. Abra la consola de Amazon EC2.
-2. En el panel de navegación, seleccionamos Instancias.
-3.  En la página de Instancias en la columna de Comprobaciones
+1. Obriu la consola d'Amazon EC2.&#x20;
+2. Al panell de navegació, seleccionem Instàncies.&#x20;
+3. A la pàgina d'Instàncies a la columna de Comprovacions d'estat, indica l'estat operatiu de cada instància.&#x20;
+4. Per veure l'estat d'una instància específica, seleccionem la instància i, a continuació, Comprovacions d'estat.
 
-    de estado, se indica el estado operativo de cada instancia.
-4.  Para ver el estado de una instancia específica, seleccionamos la
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Comprovacions d'estat</p></figcaption></figure>
 
-    instancia y, a continuación, Comprobaciones de estado.
+Si la instància té una comprovació d'estat fallida, “normalment” haurem de solucionar el problema nosaltres mateixos (per exemple: en reiniciar la instància o fer canvis en la configuració de la instància).
+
+Per veure l'estat de totes les instàncies, utilitzeu l'ordre següent:
+
+```
+aws ec2 describe-instance-status
+```
+
+```
+eee_W_2589232@runweb117359:~$  aws ec2 describe-instance-status
+{
+    "InstanceStatuses": [
+        {
+            "AvailabilityZone": "us-east-1c",
+            "InstanceId": "i-0d194431a2174655e",
+            "InstanceState": {
+                "Code": 16,
+                "Name": "running"
+            },
+            "InstanceStatus": {
+                "Details": [
+                    {
+                        "Name": "reachability",
+                        "Status": "passed"
+                    }
+                ],
+                "Status": "ok"
+            },
+            "SystemStatus": {
+                "Details": [
+                    {
+                        "Name": "reachability",
+                        "Status": "passed"
+                    }
+                ],
+                "Status": "ok"
+            }
+        }
+    ]
+}
+```
