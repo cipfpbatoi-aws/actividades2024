@@ -27,12 +27,3 @@ Hi ha dos tipus de comprovacions d'estat:
 
 * Comprovacions d'estat de sistemes.
 * Comprovacions d'iestat d'instàncies.
-
-## **Comprovacions d'estat de sistemes**
-
-Les comprovacions d'estat del sistema monitoritzen els sistemes d'AWS on s'executa la instància. Aquestes comprovacions detecten problemes subjacents amb la instància que requereixen la intervenció d'AWS per solucionar-los.
-
-* Pèrdua de connectivitat de xarxa.
-* Pèrdua de potència del sistema.
-* Problemes de programari al host físic.
-* Problemes de maquinari al host físic que afecten la accessibilitat a la xarxa.
