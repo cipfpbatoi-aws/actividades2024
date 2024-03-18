@@ -20,8 +20,6 @@ Per veure les comprovacions d'estat:
 
 <figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Comprovacions d'estat correcta.</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Comprovació d'estat amb errors.</p></figcaption></figure>
-
 Si la instància té una comprovació d'estat fallida, “normalment” haurem de solucionar el problema nosaltres mateixos (per exemple: en reiniciar la instància o fer canvis en la configuració de la instància).
 
 Per veure l'estat de totes les instàncies a través d'AWS-CLI, utilitzarem l'ordre següent:

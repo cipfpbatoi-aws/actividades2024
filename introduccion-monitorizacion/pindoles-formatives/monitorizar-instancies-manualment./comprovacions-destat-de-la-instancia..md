@@ -14,7 +14,9 @@ Amazon EC2 verifica l'estat de la instància mitjançant l'enviament d'una sol·
 * Sistema de fitxers danyat.
 * Kernel incompatible.
 
-Per informar de l'estat d'una instància:
+<figure><img src="../../.gitbook/assets/image (191).png" alt=""><figcaption><p>Comprovació d'estat de l'instancia.</p></figcaption></figure>
+
+Per informar de l'estat d'una instància:&#x20;
 
 1. Obrim la consola dAmazon EC2.
 2. Al panell de navegació, premem Instàncies.
