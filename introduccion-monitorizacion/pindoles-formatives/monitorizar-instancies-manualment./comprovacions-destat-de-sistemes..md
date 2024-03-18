@@ -18,11 +18,13 @@ Per veure les comprovacions d'estat:
 3. A la pàgina d'Instàncies a la columna de Comprovacions d'estat, indica l'estat operatiu de cada instància.&#x20;
 4. Per veure l'estat d'una instància específica, seleccionem la instància i, a continuació, Comprovacions d'estat.
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Comprovacions d'estat</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Comprovacions d'estat correcta.</p></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Comprovació d'estat amb errors.</p></figcaption></figure>
 
 Si la instància té una comprovació d'estat fallida, “normalment” haurem de solucionar el problema nosaltres mateixos (per exemple: en reiniciar la instància o fer canvis en la configuració de la instància).
 
-Per veure l'estat de totes les instàncies, utilitzeu l'ordre següent:
+Per veure l'estat de totes les instàncies a través d'AWS-CLI, utilitzarem l'ordre següent:
 
 ```
 aws ec2 describe-instance-status

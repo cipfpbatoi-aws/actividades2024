@@ -39,6 +39,4 @@ Els codis de motiu per al comandament `aws ec2 report-instance-status` depenen d
 
 Quan executes el comandament `aws ec2 report-instance-status`, necessites proporcionar un valor específic per a `--reason-codes`. Per exemple, si vols informar que una instància està "atascada en un estat", utilitzaries:
 
-```
-// Some code
-```
+aws ec2 report-instance-status --instances i-0d194431a2174655e --status impaired --reason-codes instance-stuck-in-state
