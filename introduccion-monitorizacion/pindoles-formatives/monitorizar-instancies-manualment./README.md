@@ -26,4 +26,4 @@ Amazon EC2 realitza verificacions automatitzades a cada instància EC2 en execuc
 Hi ha dos tipus de comprovacions d'estat:
 
 * Comprovacions d'estat de sistemes.
-* Comprovacions d'iestat d'instàncies.
+* Comprovacions d'estat d'instàncies.
