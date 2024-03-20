@@ -15,10 +15,7 @@
 * [⚒️ Monitorizar instàncies manualment.](pindoles-formatives/monitorizar-instancies-manualment./README.md)
   * [⚒️ Comprovacions d'estat de sistemes.](pindoles-formatives/monitorizar-instancies-manualment./comprovacions-destat-de-sistemes..md)
   * [⚒️ Comprovacions d'estat de l'instància.](pindoles-formatives/monitorizar-instancies-manualment./comprovacions-destat-de-linstancia..md)
-
-***
-
-* [⚒️ Com estressar una instància d'EC2](com-estressar-una-instancia-dec2.md)
+* [⚒️ Com estressar una instància d'EC2](pindoles-formatives/com-estressar-una-instancia-dec2.md)
 
 ## Pràctica
 
