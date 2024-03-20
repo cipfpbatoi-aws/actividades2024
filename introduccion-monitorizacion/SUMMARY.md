@@ -16,6 +16,10 @@
   * [⚒️ Comprovacions d'estat de sistemes.](pindoles-formatives/monitorizar-instancies-manualment./comprovacions-destat-de-sistemes..md)
   * [⚒️ Comprovacions d'estat de l'instància.](pindoles-formatives/monitorizar-instancies-manualment./comprovacions-destat-de-linstancia..md)
 
+***
+
+* [⚒️ Com estressar una instància d'EC2](com-estressar-una-instancia-dec2.md)
+
 ## Pràctica
 
 * [1. Mètriques de CloudWatch](practica/1.-metriques-de-cloudwatch.md)
