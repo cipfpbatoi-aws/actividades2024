@@ -6,11 +6,8 @@
 * [📀 EBS](ebs/README.md)
   * [🛠️ Volums](ebs/volumenes.md)
   * [🛠️ Instantànies](ebs/instantanies.md)
-* [Pràctiques](practiques.md)
-* [⚔️ Pràctica EBS](practica-ebs.md)
-* [⚔️ Pràctica EFS](practica-efs.md)
 
 ## PRÀCTIQUES
 
-* [🔨 Pràctica EFS](practiques-1/practica-efs.md)
-* [🔨 Pràctica EBS](practiques-1/practica-ebs.md)
+* [🔨 Pràctica EFS](practiques/practica-efs.md)
+* [🔨 Pràctica EBS](practiques/practica-ebs.md)
