@@ -9,5 +9,5 @@
 
 ## PRÀCTIQUES
 
-* [🔨 Pràctica EFS](practiques/practica-efs.md)
+* [📎 Pràctica EFS](practiques/practica-efs.md)
 * [🔨 Pràctica EBS](practiques/practica-ebs.md)
