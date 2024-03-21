@@ -79,5 +79,3 @@ Ara podem connectar amb un client d'escriptori remot que done suport al protocol
 Una volta connectats, podem començar a operar la instància, com si estiguérem físicament davant d'un PC amb la mateixa configuració.
 
 <figure><img src="../.gitbook/assets/imagen.png" alt=""><figcaption><p>Pantalla de l'escriptori remot de Windows Server 2022 base</p></figcaption></figure>
-
-<figure><img src="../.gitbook/assets/image (181).png" alt=""><figcaption><p>Pantalla de l'escriptori remot de Windows Server 2022 base</p></figcaption></figure>
