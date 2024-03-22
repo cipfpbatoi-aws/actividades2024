@@ -18,7 +18,7 @@ Panell principal per a la gestió del sistema de fitxers:
 
 <figure><img src="../.gitbook/assets/image (28).png" alt=""><figcaption></figcaption></figure>
 
-Tenim dues opcions per crear el sistema de fitxers **EFS**, la versió ràpida i la versió on podem especificar més paràmetres de configuració, etc. Primer farem servir l'opció ràpida. En aquest cas, podem especificar el nom i, hem de seleccionar per a quina **VPC** ha d'estar disponible.&#x20;
+Tenim dues opcions per crear el sistema de fitxers **EFS**, en el nostre cas la versió ràpida i la versió on podem especificar més paràmetres de configuració, etc. Primer farem servir l'opció ràpida. En aquest cas, podem especificar el nom i, hem de seleccionar per a quina **VPC** ha d'estar disponible.&#x20;
 
 <figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
