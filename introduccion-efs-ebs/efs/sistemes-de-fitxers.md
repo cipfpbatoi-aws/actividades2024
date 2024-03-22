@@ -18,7 +18,7 @@ Panell principal per a la gestió del sistema de fitxers:
 
 <figure><img src="../.gitbook/assets/image (28).png" alt=""><figcaption></figcaption></figure>
 
-A continuació crearem un sistema de fitxers, podem especificar el nom i cal seleccionar per a quina **VPC** volem que estiga disponible.&#x20;
+Tenim dues opcions per crear el sistema de fitxers **EFS**, la versió ràpida i la versió on podem especificar més paràmetres de configuració, etc. Primer farem servir l'opció ràpida. En aquest cas, podem especificar el nom i, hem de seleccionar per a quina **VPC** ha d'estar disponible.&#x20;
 
 <figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
@@ -26,13 +26,11 @@ Ja tenim creat el sistema de fitxers **EFS**:
 
 <figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-Si accedim pel **nom** o **id** a l'**EFS** creat,  podem veure les diferents opcions i accions disponibles:
-
-&#x20;
+Si accedim pel **nom** o l'identificador del sistema de fitxers **EFS** creat,  podem veure les diferents opcions i accions disponibles:
 
 <figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
-Podem ajustar els paràmetres de la creació de l'**EFS**, amb l'opció "_**Personalizar**_":
+A continuació crearem un sistema de fitxers **EFS**, però amb l'opció "_**Personalizar**_":
 
 <figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
@@ -44,11 +42,11 @@ xifratge, cicle de vida, etc.:
 
 <figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
-Diferents opcions del sistema de fitxers:
+Més paràmetres de configuració del sistema de fitxers:
 
 <figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
-Selecció de la **VPS** on volem tindre disponible el nostre EFS:
+Selecció de la **VPC** on volem tindre disponible el nostre sistema de fitxers **EFS**:
 
 <figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
@@ -56,7 +54,7 @@ Més configuracions del sistema de fitxers **EFS**:
 
 <figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 
-Revisar i crear:
+Finalement hem de "_**Revisar y crear**_":
 
 <figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
 
@@ -64,16 +62,16 @@ Revisar i crear:
 
 <figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
 
-Ara anem "muntar" aquest EFS sobre una instància, seleccionarem "_**Asociar**_"
+Ara anem "muntar" el sistema de fitxers **EFS** sobre una instància, seleccionarem "_**Asociar**_"
 
 <figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
-Diferents opcions per a muntar el EFS:
+Diferents opcions per a muntar el sistema de fitxers **EFS**, en aquest cas fent servir **DNS**:
 
 <figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
-o per IP:
+o per **IP**:
 
 <figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
-Anem a comprovar el funcionament:&#x20;
+Comprovarem el funcionament:&#x20;
