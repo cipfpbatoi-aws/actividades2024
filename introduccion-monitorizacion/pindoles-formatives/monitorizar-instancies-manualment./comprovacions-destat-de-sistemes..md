@@ -24,7 +24,7 @@ Per veure les comprovacions d'estat:
 3. A la pàgina d'Instàncies a la columna de Comprovacions d'estat, indica l'estat operatiu de cada instància.&#x20;
 4. Per veure l'estat d'una instància específica, seleccionem la instància i, a continuació, Comprovacions d'estat.
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Comprovacions d'estat correcta.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>Comprovacions d'estat correcta.</p></figcaption></figure>
 
 Si la instància té una comprovació d'estat fallida, “normalment” haurem de solucionar el problema nosaltres mateixos (per exemple: en reiniciar la instància o fer canvis en la configuració de la instància).
 
