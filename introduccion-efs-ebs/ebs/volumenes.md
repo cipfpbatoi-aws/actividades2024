@@ -2,7 +2,7 @@
 
 La gestió dels volums la farem des de l'apartat "_**Volúmnes**_". Es mostren els dos volums que tenim de les dues instàncies **EC2**.&#x20;
 
-<figure><img src="../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 A continuació crearem un volum, la següent imatge mostra com les principals característiques que podem ajustar (el tipus de volum, la mida, les zones, el xifratge, entre altres). &#x20;
 
@@ -10,7 +10,7 @@ A continuació crearem un volum, la següent imatge mostra com les principals ca
 
 Depenent de quin ús farem servir el volum, seleccionarem el tipus. Nosaltres en aquest cas farem servir el d'ús general.&#x20;
 
-<figure><img src="../.gitbook/assets/image (12) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (12) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Una vegada seleccionats les principals característiques podem crear el volum.
 
