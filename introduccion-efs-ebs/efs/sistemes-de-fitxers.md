@@ -18,37 +18,25 @@ Panell principal per a la gestió del sistema de fitxers:
 
 <figure><img src="../.gitbook/assets/image (28).png" alt=""><figcaption></figcaption></figure>
 
-Tenim dues opcions per crear el sistema de fitxers **EFS**, en el nostre cas la versió ràpida i la versió on podem especificar més paràmetres de configuració, etc. Primer farem servir l'opció ràpida. En aquest cas, podem especificar el nom i, hem de seleccionar per a quina **VPC** ha d'estar disponible.&#x20;
+Tenim dues opcions per crear el sistema de fitxers **EFS**, en el nostre cas la versió ràpida i la versió on podem especificar més paràmetres de configuració, etc. Nosaltres farem servir l'opció estesa on podem especificar més paràmetres.&#x20;
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
-
-Ja tenim creat el sistema de fitxers **EFS**:
-
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-Si accedim pel **nom** o l'identificador del sistema de fitxers **EFS** creat,  podem veure les diferents opcions i accions disponibles:
-
-<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
-
-A continuació crearem un sistema de fitxers **EFS**, però amb l'opció "_**Personalizar**_":
-
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 D'aquesta forma podem ajustar diferents paràmetres:&#x20;
 
-<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 xifratge, cicle de vida, etc.:
 
-<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 Més paràmetres de configuració del sistema de fitxers:
 
 <figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
-Selecció de la **VPC** on volem tindre disponible el nostre sistema de fitxers **EFS**:
+Selecció de la **VPC** on volem tindre disponible el nostre sistema de fitxers **EFS** i on seleccionarem el nostre security group:
 
-<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 Més configuracions del sistema de fitxers **EFS**:
 
@@ -62,16 +50,30 @@ Finalement hem de "_**Revisar y crear**_":
 
 <figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
 
-Ara anem "muntar" el sistema de fitxers **EFS** sobre una instància, seleccionarem "_**Asociar**_"
+Abans de "muntar" el nostre sistema de fitxers, hem d'afegir al nostre grup de seguretat que permata les connexions **NFS**, per això hem d'accedir al servei ![](<../.gitbook/assets/image (1).png>) i en l'apartat **Red y Seguridad** opció  **Security Group** editar regles d'entrada:
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
-
-Diferents opcions per a muntar el sistema de fitxers **EFS**, en aquest cas fent servir **DNS**:
+&#x20;
 
 <figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
-o per **IP**:
+Una vegada hem afegit la regla, el nostre grup de seguretat queda de la següent forma:
 
 <figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
-Comprovarem el funcionament:&#x20;
+Ara anem "muntar" el sistema de fitxers **EFS,** per això accedim al servei ![](<../.gitbook/assets/image (4).png>) una vegada seleccionat farem clic en "_**Asociar**_"
+
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+
+On trobem diferents opcions per a muntar el sistema de fitxers, en aquest cas fent servir **DNS**:
+
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+
+o per **IP**:
+
+<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+
+Ara sols ens falta comprovar el funcionament en una instància, en aquest cas hem fet servir client nfs de l'opció **DNS**:
+
+<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+
+&#x20;
