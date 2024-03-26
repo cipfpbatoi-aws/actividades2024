@@ -20,11 +20,11 @@ Panell principal per a la gestió del sistema de fitxers:
 
 Tenim dues opcions per crear el sistema de fitxers **EFS**, en el nostre cas la versió ràpida i la versió on podem especificar més paràmetres de configuració, etc. Nosaltres farem servir l'opció estesa on podem especificar més paràmetres.&#x20;
 
-<figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 D'aquesta forma podem ajustar diferents paràmetres:&#x20;
 
-<figure><img src="../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 xifratge, cicle de vida, etc.:
 
@@ -62,15 +62,15 @@ Una vegada hem afegit la regla, el nostre grup de seguretat queda de la següent
 
 Ara anem "muntar" el sistema de fitxers **EFS,** per això accedim al servei ![](<../.gitbook/assets/image (10).png>) una vegada seleccionat farem clic en "_**Asociar**_"
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 On trobem diferents opcions per a muntar el sistema de fitxers, en aquest cas fent servir **DNS**:
 
-<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 o per **IP**:
 
-<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Ara sols ens falta comprovar el funcionament en una instància, en aquest cas hem fet servir client nfs de l'opció **DNS**:
 
