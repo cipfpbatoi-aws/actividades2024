@@ -42,7 +42,7 @@ Finalment, podem veure que no tenim cap volum **EBS**, disponible:
 
 <figure><img src="../.gitbook/assets/image (48).png" alt=""><figcaption></figcaption></figure>
 
-Ara ja tenim disponibles en la nostra instància els dos volums:
+Ara ja tenim disponibles en la nostra instància els dos volums **EBS**:
 
 <figure><img src="../.gitbook/assets/image (49).png" alt=""><figcaption></figcaption></figure>
 
