@@ -46,9 +46,30 @@ Ara ja tenim disponibles en la nostra instància els dos volums **EBS**:
 
 <figure><img src="../.gitbook/assets/image (49).png" alt=""><figcaption></figcaption></figure>
 
-Crearem un RAID1 amb els dos volums que hem afegit, primer que res instal·larem el suport **mdadm** a la nostra instància:&#x20;
+Crearem un **RAID 1** amb els dos volums que hem afegit, primer que res instal·larem el suport **mdadm** a la nostra instància:&#x20;
 
 <figure><img src="../.gitbook/assets/image (50).png" alt=""><figcaption></figcaption></figure>
 
+Creem el **RAID 1**:
 
+<figure><img src="../.gitbook/assets/image (51).png" alt=""><figcaption></figcaption></figure>
 
+Afegim el **RAID** al fitxer de configuració:
+
+<figure><img src="../.gitbook/assets/image (52).png" alt=""><figcaption></figcaption></figure>
+
+Verifiquem el **RAID**:
+
+<figure><img src="../.gitbook/assets/image (53).png" alt=""><figcaption></figcaption></figure>
+
+A continuació donem format al nou **RAID**:
+
+<figure><img src="../.gitbook/assets/image (54).png" alt=""><figcaption></figcaption></figure>
+
+Verifiquem que podem muntar el **RAID**:
+
+<figure><img src="../.gitbook/assets/image (55).png" alt=""><figcaption></figcaption></figure>
+
+Ens descarregarem un fitxer per tindre contingut al RAID:
+
+<figure><img src="../.gitbook/assets/image (56).png" alt=""><figcaption></figcaption></figure>
