@@ -28,3 +28,6 @@ Tornem al servei EFS per "_**Asociar**_" el sistema de fitxers EFS, montem fent 
 
 <figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
+A continuació tornarem accedirem al nostre servei **EC2**, ara farem servir la instància d'Amazon Linux.
+
+<figure><img src="../.gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure>
