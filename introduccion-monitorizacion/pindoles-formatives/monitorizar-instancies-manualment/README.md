@@ -1,8 +1,8 @@
 ---
-description: Monitorització d'instàncies d'EC2.
+description: Monitorització d'instàncies d'EC2
 ---
 
-# ⚒️ Monitorizar instàncies manualment.
+# ⚒️ Monitorizar instàncies manualment
 
 <figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
