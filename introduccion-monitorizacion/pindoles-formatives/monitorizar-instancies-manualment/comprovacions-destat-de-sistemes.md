@@ -2,7 +2,7 @@
 description: Monitorització d'instàncies de manera manual.
 ---
 
-# ⚒️ Comprovacions d'estat de sistemes.
+# ⚒️ Comprovacions d'estat de sistemes
 
 Les comprovacions d'estat del sistema monitoritzen els sistemes d'AWS on s'executa la instància. Aquestes comprovacions detecten problemes subjacents amb la instància que requereixen la intervenció d'AWS per solucionar-los.
 

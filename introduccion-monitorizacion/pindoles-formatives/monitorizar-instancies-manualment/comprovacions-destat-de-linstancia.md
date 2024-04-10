@@ -2,7 +2,7 @@
 description: Monitorització d'instàncies de manera manual.
 ---
 
-# ⚒️ Comprovacions d'estat de l'instància.
+# ⚒️ Comprovacions d'estat de l'instància
 
 Monitorització de la configuració de programari i de xarxa de la instància individual. Aquesta comprovació verifica si el sistema operatiu de la instància accepta trànsit.
 
