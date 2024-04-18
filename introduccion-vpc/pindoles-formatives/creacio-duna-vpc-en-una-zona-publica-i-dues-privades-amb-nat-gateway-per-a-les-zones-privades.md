@@ -1,6 +1,12 @@
-# ⚒️ Creació d'una VPC en una zona pública i dues privades
+# ⚒️ Creació d'una VPC en una zona pública i dues privades, amb NAT Gateway per a les zones privades
 
 TO-DO: explicació existència zones públiques i privades, i característiques de cada tipus.
+
+{% hint style="danger" %}
+Encara que el tutorial funcione, al fer servir un servei administrat per al NAT gateway, el consum de crèdit es alt.
+
+Sería preferible buscar una alternativa IAAS, per exemple, amb un servidor de comunicacions Ubuntu amb UFW.
+{% endhint %}
 
 Per a les nostres proves, crearem una VPC amb una zona pública, i dues zones privades.
 
