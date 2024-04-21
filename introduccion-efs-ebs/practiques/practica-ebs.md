@@ -73,3 +73,19 @@ Verifiquem que podem muntar el **RAID**:
 Ens descarregarem un fitxer per tindre contingut al RAID:
 
 <figure><img src="../.gitbook/assets/image (56).png" alt=""><figcaption></figcaption></figure>
+
+Ara "desassociarem" un dels dos discos assignats a la primera instància:
+
+<figure><img src="../.gitbook/assets/Screenshot from 2024-04-21 08-39-41.png" alt=""><figcaption></figcaption></figure>
+
+Per associar a la nova a instància, on especificarem a quina instància i el nom del disc:
+
+<figure><img src="../.gitbook/assets/image (58).png" alt=""><figcaption></figcaption></figure>
+
+Ara ja tenim accessible el disc en la nostra instància.&#x20;
+
+<figure><img src="../.gitbook/assets/image (61).png" alt=""><figcaption></figcaption></figure>
+
+Amb el comandament mdadm reconstruïm el RAID1 i podem veure&#x20;
+
+<figure><img src="../.gitbook/assets/image (60).png" alt=""><figcaption></figcaption></figure>
