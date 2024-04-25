@@ -2,6 +2,23 @@
 
 TO-DO: explicació existència zones públiques i privades, i característiques de cada tipus.
 
+L'existència de zones públiques i privades es basa principalment en la necessitat de seguretat i en els requisits d'accessibilitat dels recursos des de l'exterior.&#x20;
+
+1. **Zones Públiques**:
+   * Les zones públiques són segments de xarxa a la teva infraestructura de núvol que estan accessibles des de l'internet públic.
+   * Característiques:
+     * **Accessibles des de l'exterior**: Les instàncies, serveis i recursos allotjats en aquestes zones poden ser accedits mitjançant adreces IP públiques.
+     * **Accessibilitat ampliada**: Aquestes zones s'utilitzen per allotjar recursos que necessiten ser accessibles des de qualsevol lloc a través d'internet, com ara servidors web, serveis d'API públics, etc.
+     * **Exposició a la internet**: Donat que els recursos aquí són accessibles públicament, existeix un major risc de seguretat, per la qual cosa es requereixen mesures de seguretat addicionals, com ara grups de seguretat, control d'accés basat en l'autenticació, entre d'altres.
+     * **IP Públiques**: Les instàncies i els recursos en aquesta zona tenen assignades adreces IP públiques per a la seva identificació a internet.
+2. **Zones Privades**:
+   * Les zones privades són segments de xarxa que estan aïllats de l'internet públic i no són accessibles directament des de l'exterior.
+   * Característiques:
+     * Aïllament: Les instàncies, serveis i recursos allotjats en aquestes zones no són accessibles des de l'internet públic, la qual cosa proporciona una capa addicional de seguretat.
+     * Seguretat: Les zones privades s'utilitzen per allotjar recursos sensibles o crítics que no han de ser exposats a internet, com ara bases de dades, sistemes interns, aplicacions internes, etc.
+     * Accés restringit: L'accés als recursos en aquestes zones es controla normalment mitjançant mecanismes de seguretat com els grups de seguretat, les llistes de control d'accés (ACLs), o les polítiques de control d'accés IAM (Identity and Access Management).
+     * IP Privades: Les instàncies en aquesta zona tenen assignades adreces IP privades que no són accessibles des de l'exterior i només són accessibles dins de la xarxa privada de la VPC.
+
 {% hint style="danger" %}
 Encara que el tutorial funcione, al fer servir un servei administrat per al NAT gateway, el consum de crèdit es alt.
 
