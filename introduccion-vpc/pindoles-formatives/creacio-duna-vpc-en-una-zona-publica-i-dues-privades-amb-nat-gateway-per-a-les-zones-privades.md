@@ -14,10 +14,10 @@ L'existència de zones públiques i privades es basa principalment en la necessi
 2. **Zones Privades**:
    * Les zones privades són segments de xarxa que estan aïllats de l'internet públic i no són accessibles directament des de l'exterior.
    * Característiques:
-     * Aïllament: Les instàncies, serveis i recursos allotjats en aquestes zones no són accessibles des de l'internet públic, la qual cosa proporciona una capa addicional de seguretat.
-     * Seguretat: Les zones privades s'utilitzen per allotjar recursos sensibles o crítics que no han de ser exposats a internet, com ara bases de dades, sistemes interns, aplicacions internes, etc.
-     * Accés restringit: L'accés als recursos en aquestes zones es controla normalment mitjançant mecanismes de seguretat com els grups de seguretat, les llistes de control d'accés (ACLs), o les polítiques de control d'accés IAM (Identity and Access Management).
-     * IP Privades: Les instàncies en aquesta zona tenen assignades adreces IP privades que no són accessibles des de l'exterior i només són accessibles dins de la xarxa privada de la VPC.
+     * **Aïllament:** Les instàncies, serveis i recursos allotjats en aquestes zones no són accessibles des de l'internet públic, la qual cosa proporciona una capa addicional de seguretat.
+     * **Seguretat:** Les zones privades s'utilitzen per allotjar recursos sensibles o crítics que no han de ser exposats a internet, com ara bases de dades, sistemes interns, aplicacions internes, etc.
+     * **Accés restringit:** L'accés als recursos en aquestes zones es controla normalment mitjançant mecanismes de seguretat com els grups de seguretat, les llistes de control d'accés (ACLs), o les polítiques de control d'accés IAM (Identity and Access Management).
+     * **IP Privades:** Les instàncies en aquesta zona tenen assignades adreces IP privades que no són accessibles des de l'exterior i només són accessibles dins de la xarxa privada de la VPC.
 
 {% hint style="danger" %}
 Encara que el tutorial funcione, al fer servir un servei administrat per al NAT gateway, el consum de crèdit es alt.
