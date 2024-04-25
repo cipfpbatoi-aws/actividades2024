@@ -1,7 +1,5 @@
 # ⚒️ Creació d'una VPC en una zona pública i dues privades, amb NAT Gateway per a les zones privades
 
-TO-DO: explicació existència zones públiques i privades, i característiques de cada tipus.
-
 L'existència de zones públiques i privades es basa principalment en la necessitat de seguretat i en els requisits d'accessibilitat dels recursos des de l'exterior.&#x20;
 
 1. **Zones Públiques**:
